@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Dati gentali dell'utente</h1>
+    <hr />
+    <h2>Dati anagrafici</h2>
+    <form action="submit">
+      <label for="email_user">Email:</label>
+      <input type="email" placeholder="Inserisci email" name="email_user" />
+      <br />
+      <br />
+      <label for="password_user">Password:</label>
+      <input
+        type="password"
+        placeholder="inserisci password"
+        name="password_user"
+      />
+      <br />
+      <br />
+      <label for="user_name">Nome:</label>
+      <input type="text" placeholder="Inserisci nome" name="user_name" />
+      <label for="user_lastname">Cognome:</label>
+      <input type="text" name="user_lastname" placeholder="Inserisci cognome" />
+      <br />
+      <br />
+      <label for="user_data">Data di Nascita:</label>
+      <input type="date" name="user_data" />
+      <br />
+      <br />
+      <label for="user_number">Telefono</label>
+      <input type="tel" placeholder="Insersci telefono" />
+      <br />
+      <br />
+      <label for="user_offer">Seleziona il piano</label>
+      <select name="user_offer">
+        <option value="100">Bronze</option>
+        <option value="200">Silver</option>
+        <option value="300">Gold</option>
+      </select>
+      <br />
+      <br />
+      <label for="user_ok">Ok</label>
+      <input type="checkbox" name="user_ok" />
+
+      <h2>Dati della Carta</h2>
+
+      <label for="user_card">Numero Carta:</label>
+      <input
+        type="text"
+        name="user_card"
+        placeholder="Inserisci numero carta"
+      />
+      <label for="user_cvc">CVC</label>
+      <input type="number" name="user_cvc" />
+      <label for="date_off">Data di scadenza:</label>
+        <input type="date" name="date_off" />
+      <br />
+      <br />
+      <label for="address">Indirizzo Fatturazione:</label>
+      <input type="text" placeholder="inserisci indirizzo" name="address" />
+      <br /><br />
+      <button type="submit">Conferma</button>
+    </form>
+  </body>
+</html>
